@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Where Can I Keep Cattle?</title>
+        <meta name="description" content="Learn about the History of and Care for Dairy Cattle">
+        <meta name="author" content="Alana Lind">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="dairy.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1 id="top">DAIRY FARMING</h1>
+            <p>Do You Know Where Milk Comes From?</p>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li> <a href="index.html">History of Cattle</a></li>
+                <li><a href="location.html">Location</a>
+                </li>
+                <li><a href="cowbreeds.html">Breeds</a></li>
+                <li class="active"><a href="order.html">Fresh Dairy</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+            <h1>Order Fresh Dairy</h1>
+            <form method="get" class="myForm" action="thanks.html">
+        
+        <fieldset>
+             <legend>Customer Information</legend>
+            <label>First Name* <input type="text" name="fname" required placeholder="Bob">
+            </label>
+            <label>Last Name* <input type="text" name="lname" required placeholder="Jones">
+            </label>
+            <label>Email* <input type="email" name="mail" required placeholder="hello@mail.com"> </label>
+            <label>Cell Number* <input type="tel" name="phone" required placeholder="987-555-1234">
+            </label> 
+        </fieldset>
+            
+        <fieldset>
+            <legend>Dairy Items</legend>
+                <label><input type="checkbox" name="icecream" value="chosen">Vanilla Ice Cream (1 pint)</label>
+                <label><input type="checkbox" name="icecreamm" value="chosen">Chocolate Ice Cream (1 pint) </label>
+                <label><input type="checkbox" name="milk" value="chosen">Whole Milk (1 gallon)</label>
+                <label><input type="checkbox" name="milkk" value="chosen">2% Milk (1 gallon)</label>
+                <label><input type="checkbox" name="cream" value="chosen">Cream (1/2 gallon) </label>
+                <label><input type="checkbox" name="butter" value="chosen">Salted Butter (1 lb)</label>
+                <label><input type="checkbox" name="butterr" value="chosen">Unsalted Butter (1 lb)</label>
+        </fieldset> 
+                
+        <fieldset>
+            <legend>Delivery Options</legend>
+                <label><input type="radio" name="method" value="truck">Truck Delivery (10hrs)</label>
+                <label><input type="radio" name="method" value="doordash">Doordash (4hrs)</label>
+                <label><input type="radio" name="method" value="robot">Robot Delivery (6hrs)</label>
+        </fieldset>
+            
+           <fieldset>
+            <label>Preferred Delivery Time
+            <select name="time">
+            <option value="none">PleaseSelect</option>
+            <option value="morning">Between 7:00am and 11:00am</option>
+            <option value="noon">Between 11:00am and 2:00pm</option>
+            <option value="afternoon">Between 2:00pm and 5:00pm</option>
+            <option value="evening">Between 5:00pm and 8:00pm</option>
+            </select>
+            </label>
+        </fieldset>
+            
+            <label>Comments
+                <textarea name="comment">Please add any special instructions</textarea>
+            </label>
+    
+        <input type="submit" value="Send Delivery Request">
+        </form>
+                    
+        </main>
+        <footer>
+            <p>&copy; 2023 &bull; Alana Lind &bull; <a href="mailto:alana.rae11@gmail.com">Email us</a></p>
+        </footer>
+    
+    </body>
+</html>
