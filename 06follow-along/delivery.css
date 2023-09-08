@@ -119,6 +119,7 @@ main a {
 }
 .myForm textarea {
     height: 6rem;
+    
 }
 
 .myForm :required {
