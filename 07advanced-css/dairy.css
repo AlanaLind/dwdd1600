@@ -71,21 +71,22 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
+    display:flex;
 }
 nav a {
     display: block;
-    padding: 1.2rem 1rem .3rem 1rem;
+    padding: 1rem 1rem 1rem 2rem;
     font-size: 1rem;
     text-decoration: none;
     color: #603800;
+    background-color:#ffecae;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
 }
 
 nav .active a {
-    color: white;
+    color: #ffecae;
     background-color: #603800;
 }
 nav a:hover {
